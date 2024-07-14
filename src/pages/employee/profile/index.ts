@@ -1,0 +1,7 @@
+export { default as EmployeeProfileLayout } from './ProfileLayout'
+export { default as Document } from './Document'
+export { default as OnBoarding } from './onboarding'
+export { default as Asset } from './Asset'
+export { default as Preference } from './Preference'
+export { default as About } from './about'
+export { default as AssetDetail } from './AssetDetail'

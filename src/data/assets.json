@@ -1,0 +1,17 @@
+[
+	{
+		"photo": "/user.png",
+		"duration": "January 2024 - Present",
+		"employee_name": "Jie Yang Song"
+	},
+	{
+		"photo": "/user.png",
+		"duration": "January 2022 - January 2024",
+		"employee_name": "Fran Perez"
+	},
+	{
+		"photo": "/user.png",
+		"assignedDate": "January 2021 - December 2021",
+		"employee_name": "Omar Darboe"
+	}
+]

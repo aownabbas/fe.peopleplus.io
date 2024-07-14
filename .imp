@@ -1,0 +1,89 @@
+VITE_BASE_URL=https://50af-182-185-196-94.ngrok-free.app
+
+###asset page issues
+___________________________
+2 reducers files 
+src/Redux/features/settingSlice.ts 
+src/Redux/features/settingsSlice.ts
+___________________________
+fix routs accordingly 
+___________________________
+fix all file names according to settings page 
+___________________________
+move page files to pages file if it owned a rout 
+___________________________
+replace all MUI(<Link></Link>) components with react-router-dom(<Link></Link>) component 
+___________________________
+move custom hooks, types and utils functions to their respective dir/folders 
+___________________________
+create a common Data table component 
+
+
+
+{
+	"data": {
+		"id": 30,
+		"uuid": "eca1e505-df57-4772-9bde-d364ef185965",
+		"type": "employee",
+		"email": "fifatyt@mailinator.com",
+		"email_verified_at": null,
+		"password_changed_at": null,
+		"active": 1,
+		"timezone": null,
+		"last_login_at": null,
+		"last_login_ip": null,
+		"to_be_logged_out": 0,
+		"provider": null,
+		"provider_id": null,
+		"created_at": "2024-03-18T08:20:22.000000Z",
+		"updated_at": "2024-03-18T08:20:22.000000Z",
+		"deleted_at": null,
+		"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiN2UyNGM0YmYzZjMyMjMzZTcwODYwMzJiZmNkNWMzZmE4NTNlYzQyNzQ4OWExYmIzMmYzOTg2ZjFkNThhYzk2NjU0ZDg4NThjNzliMjMzZDMiLCJpYXQiOjE3MTA3NTU5MzYuNzExNDA2OTQ2MTgyMjUwOTc2NTYyNSwibmJmIjoxNzEwNzU1OTM2LjcxMTQwOTA5MTk0OTQ2Mjg5MDYyNSwiZXhwIjoxNzQyMjkxOTM2LjcwNDQyODkxMTIwOTEwNjQ0NTMxMjUsInN1YiI6IjMwIiwic2NvcGVzIjpbXX0.BbaMDq1NyLa0Nb-viHzhX9Txx4IU0M0ok1PKWO0ttghdqcPuvecPKUzx_l5z8-V6k4IsEmSIKMfkOBgCSiF_BJVNEm_NxFiT7q6fs-RVnBqNWQ4zRKNno7RtkrUjJq8FnBq2Zluxk3qXipAjEIBHBq0mA92h9u3iM3shHlE8gBN-L0A5styrUv13JJOP67G-85gA4y3EjacvHa6Va9GVyCBGUs0yFtCtIWRnTf56O-pRQgDkkZ8SzZCS5eMX-fbvHTnNkiLSGVtBxndI6ID1t5-mMPuloSOQYzTXABzGzIqdAQxfNk4fFN7Qo4GZZsbBzXqFc0KM6fORrIKyBjQji2PXH5IBecNZ81HjpHmzX4qIeycaOINMqZKchCsL_2L4bayme3OoruVn411pW3V0m63KOaYO4CS1NUcfxSeZdg7GAPUrx_ZRBjQfzt3b0j1hhgZP3pV6ILJCkra3CMN1bqL4GNgg-O7n9sHzix9r_wWo0rd6pmMcw5HnfkWBoWRe42MbqCJFf6jITpNu7VQKUm4PPz5G4yDSMlQ_F2UGw5hrAAO7WqC82KzRA5rkO-OfhMND7A0LxovOrHEwqc_U3nZ6N41VJ4CDhmuLn5wLmoHOJCxAGoG--jUG0dsesV--HAJyUOVJS_INJLuVgBYTTFWM0KBSuBTepBvIFcNPp9c",
+		"organization": null
+	}
+}
+
+
+{
+	"data": {
+		"id": 2,
+		"uuid": "14ebaf25-f80d-46b5-9ab2-c3e1d9bef5c9",
+		"type": "organization",
+		"email": "umairabbas+pp@bearplex.com",
+		"email_verified_at": null,
+		"password_changed_at": null,
+		"active": 1,
+		"timezone": null,
+		"last_login_at": null,
+		"last_login_ip": null,
+		"to_be_logged_out": 0,
+		"provider": null,
+		"provider_id": null,
+		"created_at": "2024-02-28T08:04:19.000000Z",
+		"updated_at": "2024-02-28T08:04:19.000000Z",
+		"deleted_at": null,
+		"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiM2VjZjdkNDRlOTkxZDdlMGEyMzYwOGE2ZWQxNTU2ODY3N2IzNDIwMGMyN2QyNmJlNDQ2ZDc2MmY1Mjc2ZGY2M2MyZDIxN2FhMjAxYmQ0ZDciLCJpYXQiOjE3MTA3NTY0NDIuNjk0MjI2OTgwMjA5MzUwNTg1OTM3NSwibmJmIjoxNzEwNzU2NDQyLjY5NDIzMDA3OTY1MDg3ODkwNjI1LCJleHAiOjE3NDIyOTI0NDIuNjg2NDAwODkwMzUwMzQxNzk2ODc1LCJzdWIiOiIyIiwic2NvcGVzIjpbXX0.qElE44LOG9WMlxaM6P8oCKkLaDrTiILIYKzgqELPgJe0-He_aUvb7Qucla1_nV-FuM3wfzdoCHflLQ-mNFPOgZ5mQVu1oLChySS9c888mwryiIk0mdaUy0XE3Q1BaWUfMHh3-w4a0GFx8eVFaFNhhAQfyAUOtldsFZ512riufYpuzvD8VqpPg3QZ0_hyT4ZZ3b1ksTBoI8SQFvt93d3BYLKn6-yDmTgbCalHoqlC9fpW4kNcpMeK-0K8xi5_4aQbzy6oYV6Nf_cOAasRBN8zPDF_BJ5Tbo0t7RJy189apvWSCuWd5wmFPQNK0MdeMctIELdmdo_P5cuOWOjf_fkC7SUhpFySfaJhxHsGD3Eza_JXzQvSv9n4InQ-clbxEMRLi1g19gOK4yPGHLasLU6wSNIOmUe-bFeUv7Ef2UfxG7JZjF7zhctPf_0aPZtl-B1ExntoIjBaMuJeQKUdnxXrAEIuPFPYaUPyC66ShhM_-v9wvURJH3AqYALE5dArKP7nLXwPfEu2XrKhx_o6cmlCr5nJmNKpwelpifoV-2YAdZ5ZXnS8WZbqEFWD1dj_x6w9VYPoFuGAzRPjbws24J4DRydOuA363-B0CWvuU3gJaX2GT37CdDrI8jfIaA08OaiaAjx-cQiJcN15mw5gfjG47arcV1lk0eLdH7k6aLLccZ0",
+		"organization": {
+			"id": 44,
+			"uuid": "f21a368d-d11f-4f43-b6ba-05816863f90f",
+			"user_id": 2,
+			"first_name": "umair",
+			"last_name": "dev",
+			"company_logo": "https://ik.imagekit.io/peopleplus/9_-7VnYmlSG.jpg",
+			"organization_name": "melting smok",
+			"description": "Past Lives is a 2023 American romantic drama film written and directed by Celine Song in her feature directorial debut. Starring Greta Lee, Teo Yoo, and John Magaro, it follows two childhood friends over the course of 24 years while they contemplate the nature of their relationship as they grow apart, living different lives. The plot is semi-autobiographical and inspired by real events from Song's life. Past Lives premiered at the Sundance Film Festival on January 21, 2023, and was released theatrically in the United States on June 2, 2023",
+			"phone": "03413127569",
+			"website": "www.ex.com",
+			"is_remote": null,
+			"is_multiple_office": null,
+			"address": "st#20",
+			"city": "kaza",
+			"zipcode": "00050",
+			"country": 8,
+			"time_zone": "Africa/Casablanca",
+			"office_name": null,
+			"created_at": "2024-02-28T08:04:19.000000Z",
+			"updated_at": "2024-03-15T12:20:47.000000Z"
+		}
+	}
+}

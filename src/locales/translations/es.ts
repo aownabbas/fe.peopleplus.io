@@ -1,0 +1,122 @@
+import { tokens } from '../tokens'
+
+export const es = {
+	[tokens.common.languageChanged]: 'Se ha cambiado el idioma',
+	[tokens.nav.academy]: 'Academia',
+	[tokens.nav.settings]: 'Cuenta',
+	[tokens.nav.analytics]: 'Analítica',
+	[tokens.nav.auth]: 'Autenticación',
+	[tokens.nav.blog]: 'Blog',
+	[tokens.nav.browse]: 'Buscar',
+	[tokens.nav.calendar]: 'Calendario',
+	[tokens.nav.chat]: 'Chat',
+	[tokens.nav.checkout]: 'Pago',
+	[tokens.nav.concepts]: 'Conceptos',
+	[tokens.nav.contact]: 'Contacto',
+	[tokens.nav.course]: 'Curso',
+	[tokens.nav.create]: 'Crear',
+	[tokens.nav.crypto]: 'Crypto',
+	[tokens.nav.customers]: 'Clientes',
+	[tokens.nav.dashboard]: 'Dashboard',
+	[tokens.nav.details]: 'Detalles',
+	[tokens.nav.ecommerce]: 'E-Commerce',
+	[tokens.nav.edit]: 'Editar',
+	[tokens.nav.error]: 'Error',
+	[tokens.nav.feed]: 'Fuente social',
+	[tokens.nav.fileManager]: 'Administrador de Archivos',
+	[tokens.nav.finance]: 'Finanzas',
+	[tokens.nav.fleet]: 'Parque',
+	[tokens.nav.forgotPassword]: 'Recuperar Contraseña',
+	[tokens.nav.invoiceList]: 'Facturas',
+	[tokens.nav.jobList]: 'Listado de Trabajos',
+	[tokens.nav.kanban]: 'Kanban',
+	[tokens.nav.list]: 'Lista',
+	[tokens.nav.login]: 'Acceso',
+	[tokens.nav.logistics]: 'Logística',
+	[tokens.nav.mail]: 'Correo',
+	[tokens.nav.management]: 'Gestión',
+	[tokens.nav.orderList]: 'Pedidos',
+	[tokens.nav.overview]: 'Visión general',
+	[tokens.nav.pages]: 'Páginas',
+	[tokens.nav.postCreate]: 'Crear Articulo',
+	[tokens.nav.postDetails]: 'Detalles del Articulo',
+	[tokens.nav.postList]: 'Lista de Articulos',
+	[tokens.nav.pricing]: 'Precios',
+	[tokens.nav.productList]: 'Productos',
+	[tokens.nav.profile]: 'Perfil',
+	[tokens.nav.register]: 'Registrarse',
+	[tokens.nav.resetPassword]: 'Restablecer Contraseña',
+	[tokens.nav.socialMedia]: 'Redes Sociales',
+	[tokens.nav.verifyCode]: 'Verificar Código',
+
+	// Settings page
+
+	[tokens.settings.tabs.general]: 'General',
+	[tokens.settings.tabs.asset]: 'Activo',
+	[tokens.settings.tabs.work_location]: 'Ubicación de Trabajo',
+	[tokens.settings.tabs.skill_set]: 'Conjunto de Habilidades',
+	[tokens.settings.tabs.benefit_package]: 'Paquete de Beneficios',
+	[tokens.settings.tabs.onboarding]: 'Integración',
+	[tokens.settings.tabs.modules]: 'Módulos',
+	[tokens.settings.tabs.expenses]: 'Gastos',
+	[tokens.settings.tabs.localization]: 'Localización',
+	[tokens.settings.tabs.roles_Permissions]: 'Roles y Permisos',
+	[tokens.settings.tabs.personalization]: 'Personalización',
+	[tokens.settings.tabs.notifications]: 'Notificaciones',
+	[tokens.settings.tabs.communication]: 'Comunicación',
+	[tokens.settings.tabs.backup_Recovery]: 'Copia de Seguridad y Recuperación',
+	[tokens.settings.tabs.advanced]: 'Avanzado',
+
+	// settings page ( general form)
+	[tokens.settings.general.headers.company_info]: 'Información de la Empresa',
+	[tokens.settings.general.headers.office_info]: 'Información de la Oficina',
+	[tokens.settings.general.headers.departments]: 'Departamentos',
+	[tokens.settings.general.add_text]: 'Agregar otro departamento',
+	//
+	[tokens.settings.general.form.avatar.name]: 'Logo',
+	[tokens.settings.general.form.avatar.helperText]: '',
+	[tokens.settings.general.form.avatar.placeHolder]: '',
+	//
+	[tokens.settings.general.form.company_name.name]: 'Nombre de la Empresa',
+	[tokens.settings.general.form.company_name.helperText]: '',
+	[tokens.settings.general.form.company_name.placeHolder]:
+		'Cuenta de Pruebas de Aseguramiento de Calidad',
+	//
+	[tokens.settings.general.form.website.name]: 'Sitio Web',
+	[tokens.settings.general.form.website.helperText]: '',
+	[tokens.settings.general.form.website.placeHolder]: 'www.dominio.com',
+	//
+	[tokens.settings.general.form.email.name]: 'Correo Electrónico',
+	[tokens.settings.general.form.email.helperText]:
+		'Contactar a support@peopleplus.io para cambiar el correo electrónico',
+	[tokens.settings.general.form.email.placeHolder]: '',
+	//
+	[tokens.settings.general.form.phone_number.name]: 'Número de Teléfono',
+	[tokens.settings.general.form.phone_number.helperText]: ' ',
+	[tokens.settings.general.form.phone_number.placeHolder]: 'Ingrese el número de teléfono',
+	//
+	[tokens.settings.general.form.company_description.name]: 'Descripción de la Empresa',
+	[tokens.settings.general.form.company_description.helperText]:
+		'Ingrese una breve descripción sobre la empresa',
+	[tokens.settings.general.form.company_description.placeHolder]: '',
+	//
+	[tokens.settings.general.form.office_add.name]: 'Dirección de la Oficina',
+	[tokens.settings.general.form.office_add.helperText]: ' ',
+	[tokens.settings.general.form.office_add.placeHolder]: 'Ingrese la dirección',
+	//
+	[tokens.settings.general.form.city.name]: 'Ciudad',
+	[tokens.settings.general.form.city.helperText]: ' ',
+	[tokens.settings.general.form.city.placeHolder]: 'Ingrese la ciudad',
+	//
+	[tokens.settings.general.form.zip_code.name]: 'Código Postal',
+	[tokens.settings.general.form.zip_code.helperText]: ' ',
+	[tokens.settings.general.form.zip_code.placeHolder]: 'Ingrese un código',
+	//
+	[tokens.settings.general.form.country.name]: 'País',
+	[tokens.settings.general.form.country.helperText]: ' ',
+	[tokens.settings.general.form.country.placeHolder]: 'Seleccione el país',
+	//
+	[tokens.settings.general.form.time_zone.name]: 'Zona Horaria',
+	[tokens.settings.general.form.time_zone.helperText]: ' ',
+	[tokens.settings.general.form.time_zone.placeHolder]: 'Seleccione una zona horaria',
+}

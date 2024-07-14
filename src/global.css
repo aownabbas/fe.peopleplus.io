@@ -1,0 +1,49 @@
+/* Remove if fonts are not used */
+@import '@fontsource/inter/100.css';
+@import '@fontsource/inter/200.css';
+@import '@fontsource/inter/300.css';
+@import '@fontsource/inter/400.css';
+@import '@fontsource/inter/500.css';
+@import '@fontsource/inter/600.css';
+@import '@fontsource/inter/700.css';
+@import '@fontsource/inter/800.css';
+@import '@fontsource/inter/900.css';
+@import '@fontsource/roboto-mono/300.css';
+@import '@fontsource/roboto-mono/400.css';
+@import '@fontsource/plus-jakarta-sans/600.css';
+@import '@fontsource/plus-jakarta-sans/700.css';
+
+/* imported lib  */
+@import 'simplebar-react/dist/simplebar.min.css';
+@import 'react-quill/dist/quill.snow.css';
+
+/* Remove if slick-carousel is not used */
+/* @import 'slick-carousel/slick/slick.css';
+@import 'slick-carousel/slick/slick-theme.css'; */
+
+#container {
+	width: 1000px;
+	margin: 20px auto;
+}
+
+/* Editing area */
+.ck-editor__editable[role='textbox'] {
+	min-height: 510px;
+}
+
+.ck-rounded-corners .ck.ck-toolbar,
+.ck.ck-toolbar.ck-rounded-corners {
+	border-radius: 8px !important;
+	border: none;
+}
+
+.ck.ck-editor__editable.ck-focused:not(.ck-editor__nested-editable) {
+	border: none !important;
+	box-shadow: none !important;
+	outline: none !important;
+}
+/* Block images */
+/* .ck-content .image {
+    max-width: 80%;
+    margin: 20px auto; 
+}*/
